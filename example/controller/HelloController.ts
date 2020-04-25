@@ -1,4 +1,4 @@
-import { get, controller } from '../../src/decorator'
+import { get, controller } from '../../src'
 import { Request, Response } from 'express';
 @controller
 class HelloController {

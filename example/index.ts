@@ -1,6 +1,6 @@
 import express from "express";
 import './controller/HelloController';
-import { router } from '../src/decorator'
+import { router } from '../src'
 
 
 const app = express();

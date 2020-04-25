@@ -1169,6 +1169,15 @@ responselike@^1.0.2:
   dependencies:
     lowercase-keys "^1.0.0"
 
+router-decorator-ts@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/router-decorator-ts/-/router-decorator-ts-0.2.0.tgz#2e2676aca101279f734db8744156a9b579cdca96"
+  integrity sha512-WhQDxvEp2XGXP+atwt8c35e6rEW2bpwupSQSfLpYGKDDX1NxiDnyGr9pONqb0VYfUQuTiZgh5K/bk4Z9N3m1Vg==
+  dependencies:
+    "@types/express" "^4.17.6"
+    express "^4.17.1"
+    reflect-metadata "^0.1.13"
+
 rxjs@^6.5.2:
   version "6.5.5"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.5.tgz#c5c884e3094c8cfee31bf27eb87e54ccfc87f9ec"
