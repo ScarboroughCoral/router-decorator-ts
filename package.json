@@ -6,8 +6,11 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
+    "start": "ts-node ./src/index.ts",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:build": "tsc -w",
+    "dev:start": "nodemon node ./dist/example/index.js",
+    "dev": "concurrently yarn:dev:*"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/ScarboroughCoral/router-decorator-ts/issues"
   },
-  "homepage": "https://github.com/ScarboroughCoral/router-decorator-ts#readme"
+  "homepage": "https://github.com/ScarboroughCoral/router-decorator-ts#readme",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  }
 }

@@ -1,6 +1,1 @@
-function controller(target: new (...args: any[]) => any) {
-
-}
-export {
-  controller
-}
+import { Router } from 'express';
