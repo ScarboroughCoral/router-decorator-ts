@@ -1,0 +1,23 @@
+{
+  "name": "router-decorator-ts",
+  "version": "0.0.1",
+  "description": "my router decorator in typescript",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScarboroughCoral/router-decorator-ts.git"
+  },
+  "keywords": [],
+  "author": "Scarborough Coral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScarboroughCoral/router-decorator-ts/issues"
+  },
+  "homepage": "https://github.com/ScarboroughCoral/router-decorator-ts#readme"
+}
